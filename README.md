@@ -15,7 +15,7 @@ The extension is licensed under [AGPL-3.0](LICENSE.txt).
 ## Requirements
 
 * PHP v5.4+
-* CiviCRM 5.8
+* CiviCRM 5.8+
 
 ## Installation (Web UI)
 
