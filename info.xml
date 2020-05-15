@@ -11,7 +11,7 @@
   <urls>
     <url desc="Main Extension Page">https://github.com/MegaphoneJon/com.megaphonetech.softcreditcustomfields</url>
     <url desc="Documentation">https://github.com/MegaphoneJon/com.megaphonetech.softcreditcustomfields</url>
-    <url desc="Support">https://megaphonetech.com</url>
+    <url desc="Support">https://github.com/MegaphoneJon/com.megaphonetech.softcreditcustomfields/issues</url>
     <url desc="Licensing">http://www.gnu.org/licenses/agpl-3.0.html</url>
   </urls>
   <releaseDate>2018-12-21</releaseDate>
