@@ -12,14 +12,14 @@ class CRM_SoftCredit_SoftCreditQueryObject extends CRM_Contact_BAO_Query_Interfa
    * @param $query
    *
    */
-  public function select(&$query) {
+  static public function select(&$query) {
   }
 
   /**
    * @param $query
    *
    */
-  public function where(&$query) {
+  static public function where(&$query) {
     if (!empty($query->_paramLookup['soft_credit_name'])) {
       list($name, $op, $value, $grouping, $wildcard) = reset($query->_paramLookup['soft_credit_name']);
       if ($value) {
@@ -39,7 +39,7 @@ class CRM_SoftCredit_SoftCreditQueryObject extends CRM_Contact_BAO_Query_Interfa
    * @param $side
    *
    */
-  public function from($name, $mode, $side) {
+  static public function from($name, $mode, $side) {
     if ($name == 'civicrm_contribution_soft_creditee_contact') {
       return " $side JOIN civicrm_contact civicrm_contact_creditee
         ON (civicrm_contribution_soft.contact_id = civicrm_contact_creditee.id)
